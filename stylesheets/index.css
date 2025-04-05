@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+  }
+  #main {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  #top-box {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #top-box a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  #body-box {
+    padding: 20px;
+  }
+  .content-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: #fdfdfd;
+  }
+  .content-box[contenteditable="true"] {
+    background: #e0ffe0;
+  }
+  .login-section {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
