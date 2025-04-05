@@ -15,12 +15,29 @@ body {
   #top-box {
     background: #333;
     color: white;
-    padding: 15px;
+    padding: 15px 20px;
+  }
+  
+  .header-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    flex-wrap: wrap; /* allows wrapping on small screens */
   }
+  
+  .nav-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
   #top-box a {
     color: white;
     margin: 0 10px;
