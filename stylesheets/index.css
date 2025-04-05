@@ -19,12 +19,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;
   }
   #top-box a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
-    border: 1px solid red;
   }
   #body-box {
     padding: 20px;
